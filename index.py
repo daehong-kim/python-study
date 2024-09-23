@@ -1,34 +1,16 @@
-# 문자열 다루기
-# 인덱스는 자료의 순서이다 (0부터 시작)
-# text = "Hello Python"
-# print (text[0])
+# 리스트 선언
+number_row = [3,4,5,1,2]
+string_row = ["체리", "망고", "바나나", "사과","333333"]
 
-# 슬라이싱
-# [시작인덱스 : 종료인덱스]
-# print (text[3:]) 
-# print (text[:3])
-# print (text[1:8])
+# len() - 길이
+# print(len(number_row))
+# print(len(string_row))
 
-# 리스트 
-list0 = ["사과","배","포도"]
-# print (list0)
-# print (list0[0])
-list1 = [1,2,3]
-# print (list1)
-# print (list1[0])
+# max() min()
+# print(max(number_row))
+# print(max(string_row))
+# print(min(number_row))
+# print(min(string_row))
 
-# print (list0[1]*list1[2])
-
-# 배2  배배배
-
-# input : 사용자의 입력
-# data=input("입력")
-# print (data)
-# data1=input("입력")
-# print (data1[1:4])
-
-# 사용자의 입력 2개를 받아서 첫번째는 문자로, 두번째는 숫자로, 사용자의 입력값을 출력
-
-string0=input("문자를 입력해주세요")
-number0=int(input("숫자를 입력해주세요"))
-print (string0, type(number0),number0)
+# sum() 합(숫자 리스트만 가능함)
+print(sum(number_row))
